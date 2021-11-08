@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header non-shallow render 1`] = `
+<div
+  className="add-page"
+>
+  <p>
+    this is the add page
+  </p>
+</div>
+`;
