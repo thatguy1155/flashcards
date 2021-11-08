@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header non-shallow render 1`] = `
+<div
+  className="header"
+>
+  <h1>
+    Flash Cards
+  </h1>
+  <div
+    className="buttons"
+  >
+    <button>
+      review
+    </button>
+    <button>
+      add
+    </button>
+  </div>
+</div>
+`;
