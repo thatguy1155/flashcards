@@ -1,0 +1,13 @@
+.card{
+  border-radius: 5px;
+  width: 40vw;
+  height: 80vh;
+  background-color: #7a7a7a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.displayed-text{
+
+}

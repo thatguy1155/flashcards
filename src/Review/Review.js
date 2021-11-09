@@ -1,9 +1,11 @@
 import React from 'react';
+import Card from './components/card/card';
+import './Review.css';
 
 export default function Review() {
   return (
     <div className="review-page">
-      <p>This is the review page</p>
+      <Card />
     </div>
   );
 }

@@ -4,8 +4,20 @@ exports[`Header non-shallow render 1`] = `
 <div
   className="review-page"
 >
-  <p>
-    This is the review page
-  </p>
+  <div
+    className="card"
+  >
+    <h1
+      className="displayed-text"
+      data-testid="display"
+    />
+    <button
+      data-testid="check-button"
+      onClick={[Function]}
+      type="button"
+    >
+      check
+    </button>
+  </div>
 </div>
 `;
