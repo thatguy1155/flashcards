@@ -10,11 +10,27 @@ exports[`Header non-shallow render 1`] = `
   <div
     className="buttons"
   >
-    <button>
-      review
+    <button
+      className="header-button"
+      type="button"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        review
+      </a>
     </button>
-    <button>
-      add
+    <button
+      className="header-button"
+      type="button"
+    >
+      <a
+        href="/add"
+        onClick={[Function]}
+      >
+        add
+      </a>
     </button>
   </div>
 </div>
