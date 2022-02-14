@@ -17,13 +17,15 @@ export default function Card(props) {
   // TODO find way to adjust top and left values to center to card
   // find way to make other card positioned slightly off-kilter
   const cardDiff = selectedCard - cardNumber;
+  const cardPosition = (cardDiff * 5) + 12;
+  console.log(cardPosition);
   const cardOpacity = 1 - (Math.abs(cardDiff) / 3);
   const cardStyle = {
     opacity: cardOpacity,
     position: 'absolute',
     top: 50,
-    left: 50,
-    zIndex: cardDiff,
+    left: `${cardDiff}vw`,
+    zIndex: cardDiff + 5,
   };
   return (
     <div className="card" style={cardStyle}>
