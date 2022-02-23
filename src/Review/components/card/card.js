@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 import { useSelector } from 'react-redux';
 import './card.css';
 
@@ -34,3 +35,10 @@ export default function Card(props) {
     </div>
   );
 }
+Card.propTypes = {
+  english: PropTypes.string.isRequired,
+  korean: PropTypes.string.isRequired,
+  language: PropTypes.string.isRequired,
+  cardNumber: PropTypes.number.isRequired,
+  selectedCard: PropTypes.number.isRequired,
+};
